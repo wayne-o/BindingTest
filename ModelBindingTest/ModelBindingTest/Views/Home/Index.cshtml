@@ -1,0 +1,26 @@
+﻿@using ModelBindingTest.InputModels
+@model HomeInputModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+ @using (Html.BeginForm())
+    {
+        <ul>
+            <li>
+                @Html.EditorFor(x => x.NewTable)
+                <input type="submit" name="AddAnother" value="Add more items" />
+            </li>
+            @for (int i = 0; i < Model.ConfiguredTables.Count(); i++)
+            { 
+                <li>
+                    @Html.EditorFor(x => x.ConfiguredTables[i])
+                </li>
+            }
+        </ul>
+    }

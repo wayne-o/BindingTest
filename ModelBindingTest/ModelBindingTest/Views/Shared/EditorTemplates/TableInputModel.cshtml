@@ -1,0 +1,13 @@
+﻿@using ModelBindingTest.InputModels
+@model  TableInputModel
+            
+            @Model
+
+<div class="form_item">
+    <h3>
+        New table</h3>
+    @Html.HiddenFor(x => x.Id)
+    @Html.HiddenFor(x => x.TableInputModelTypeName)
+    @Html.EditorFor(x => x.Shape)
+    <input type="submit" name="SelectShape" value="Set table shape" />
+</div>

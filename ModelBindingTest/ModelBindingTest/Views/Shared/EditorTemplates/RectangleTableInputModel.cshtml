@@ -1,0 +1,10 @@
+﻿@using ModelBindingTest.InputModels
+@model RectangleTableInputModel
+<div class="form_item">
+    <h3>
+        Rectangle table</h3>
+    @Html.HiddenFor(x => x.Id)
+    @Html.HiddenFor(x => x.TableInputModelTypeName)
+    @Html.EditorFor(x => x.Width)
+    @Html.EditorFor(x => x.Height)
+</div>

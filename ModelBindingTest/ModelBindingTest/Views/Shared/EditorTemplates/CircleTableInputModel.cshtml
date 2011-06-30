@@ -1,0 +1,9 @@
+﻿@using ModelBindingTest.InputModels
+@model CircleTableInputModel
+<div class="form_item">
+    <h3>
+        Circle table</h3>
+    @Html.HiddenFor(x => x.Id)
+    @Html.HiddenFor(x => x.TableInputModelTypeName)
+    @Html.EditorFor(x => x.Diameter)
+</div>

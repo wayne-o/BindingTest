@@ -1,0 +1,6 @@
+C:\Users\Wayne Douglas\Dev\scratch\bindingtest\ModelBindingTest\ModelBindingTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wayne Douglas\Dev\scratch\bindingtest\ModelBindingTest\ModelBindingTest\bin\ModelBindingTest.dll
+C:\Users\Wayne Douglas\Dev\scratch\bindingtest\ModelBindingTest\ModelBindingTest\bin\ModelBindingTest.pdb
+C:\Users\Wayne Douglas\Dev\scratch\bindingtest\ModelBindingTest\ModelBindingTest\bin\System.Web.Mvc.dll
+C:\Users\Wayne Douglas\Dev\scratch\bindingtest\ModelBindingTest\ModelBindingTest\obj\Debug\ModelBindingTest.dll
+C:\Users\Wayne Douglas\Dev\scratch\bindingtest\ModelBindingTest\ModelBindingTest\obj\Debug\ModelBindingTest.pdb

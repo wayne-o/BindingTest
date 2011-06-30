@@ -1,0 +1,6 @@
+﻿@using ModelBindingTest.InputModels
+@model ShapeListInputModel
+@Html.DropDownListFor(
+    x => x.SelectedItemId,
+    new SelectList(Model.Items, "Value", "Text")
+)
